@@ -15,7 +15,9 @@
 * [vim-snippets]
 
 
+## Solarized Colorscheme for Gnome Terminal ##
 
+* [gnome-terminal-colors-solarized] (https://github.com/Anthony25/gnome-terminal-colors-solarized)
 
 
 
