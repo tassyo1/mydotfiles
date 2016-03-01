@@ -1,5 +1,6 @@
 # Plugins #
 
+* [vim.pathogen] (https://github.com/tpope/vim-pathogen)
 * [ctrlp.vim] (https://github.com/kien/ctrlp.vim)
 * [lightline.vim] (https://github.com/itchyny/lightline.vim)
 * [nerdtree] (https://github.com/scrooloose/nerdtree)
