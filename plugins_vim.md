@@ -19,7 +19,7 @@
 ## Solarized Colorscheme for Gnome Terminal ##
 
 * [gnome-terminal-colors-solarized] (https://github.com/Anthony25/gnome-terminal-colors-solarized)
-
+* Fonte: Ubuntu Mono Bold - 13
 
 
 
