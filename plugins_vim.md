@@ -14,7 +14,7 @@
 * [vim-sensible]
 * [vim-snipmate]
 * [vim-snippets]
-
+* [vim-multiple-cursors] (https://github.com/terryma/vim-multiple-cursors)
 
 ## Solarized Colorscheme for Gnome Terminal ##
 
