@@ -56,12 +56,16 @@ plugins=(git)
    PATH="/home/tassyosantana/.rvm/gems/ruby-2.2.4/bin:/home/tassyosantana/.rvm/gems/ruby-2.2.4@global/bin:/home/tassyosantana/.rvm/rubies/ruby-2.2.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/tassyosantana/.rvm/bin:/home/tassyosantana/.rvm/bin"
 
 
-  export PATH=${PATH}:$HOME/tassyosantana/Android/Sdk/platform-tools:$HOME/tassyosantana/Android/Sdk/tools:$HOME/tassyosantana/Android/Sdk/build-tools/24.0.0-preview/
-
+export PATH=${PATH}:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/build-tools/24.0.0-preview/
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+
+
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
