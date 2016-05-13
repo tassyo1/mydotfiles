@@ -23,7 +23,7 @@ let g:ctrlp_cmd = 'CtrlP'
 
 "Lightline
 let g:lightline = {
-      \ 'colorscheme': 'default',
+      \ 'colorscheme': 'solarized_dark',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'fugitive',  'filename' ] ]
@@ -79,6 +79,12 @@ function! LightLineFilename()
            \ ('' != LightLineModified() ? ' ' . LightLineModified() : '')
   endfunction
 
+"vim-tmux-navigator
+" Moving around splits
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-H> <C-W>h
 
 
 
