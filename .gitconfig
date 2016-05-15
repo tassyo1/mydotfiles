@@ -1,0 +1,8 @@
+[user]
+	email = tassyo.santana@hotmail.com
+	name = Tássyo Santana
+[push]
+	default = matching
+[alias]
+  s = status
+  cm = commit  -m
