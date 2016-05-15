@@ -1,11 +1,8 @@
 execute pathogen#infect()
 syntax on             " Enable syntax highlighting
-filetype on           " Enable filetype detection
-filetype indent on
-filetype plugin on
+
 set nocompatible      " We're running Vim, not Vi!
 
-set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -15,6 +12,20 @@ set number
 set relativenumber
 set autochdir
 
+set wildmode=list:longest,full
+set wildmenu
+
+"Indentation
+filetype plugin indent on
+set smartindent
+set cindent
+set autoindent
+set copyindent
+set preserveindent
+
+
+"key bindinds
+map <F2> :NERDTreeToggle<CR>
 
 "ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -79,16 +90,6 @@ function! LightLineFilename()
            \ ('' != LightLineModified() ? ' ' . LightLineModified() : '')
   endfunction
 
-"vim-tmux-navigator
-" Moving around splits
-nnoremap <C-J> <C-W>j
-nnoremap <C-K> <C-W>k
-nnoremap <C-L> <C-W>l
-nnoremap <C-H> <C-W>h
-
-
-
-
 
 " Track the engine.
 " Plugin 'SirVer/ultisnips'
@@ -98,7 +99,7 @@ nnoremap <C-H> <C-W>h
 " Trigger configuration. Do not use <tab> if you use
 " https://github.com/Valloric/YouCompleteMe.
  let g:UltiSnipsExpandTrigger="<tab>"
- let g:UltiSnipsJumpForwardTrigger="<c-b>"
+ let g:UltiSnipsJumpForwardTrigger="<tab>"
  let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " " If you want :UltiSnipsEdit to split your window.
