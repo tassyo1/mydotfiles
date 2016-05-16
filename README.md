@@ -15,11 +15,15 @@
 * [vim-snipmate]
 * [vim-snippets]
 * [vim-multiple-cursors] (https://github.com/terryma/vim-multiple-cursors)
+* [supertab] 
+* [vim-tmux-navigator]
+* [vimux]
+
 
 ## Solarized Colorscheme for Gnome Terminal ##
 
 * [gnome-terminal-colors-solarized] (https://github.com/Anthony25/gnome-terminal-colors-solarized)
-* Fonte: Ubuntu Mono Bold - 13
+* Fonte: Ubuntu Mono Bold - 12
 
 
 
