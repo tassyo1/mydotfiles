@@ -4,5 +4,17 @@
 [push]
 	default = matching
 [alias]
-  s = status
+  a = add --all
+
+  b = branch
+  bd = branch -d
+ 
   cm = commit  -m
+  
+  o = checkout
+  ob = checkout -b
+
+  s = status
+
+ 
+  
