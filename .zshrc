@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
- PATH="/home/tassyosantana/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 export PATH=${PATH}:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/build-tools/24.0.0-preview/
 
@@ -63,8 +63,9 @@ export PATH=${PATH}:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HO
 
 source $ZSH/oh-my-zsh.sh
 
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+[[ -e ~/.profile ]] && emulate sh -c "source ~/.profile" # Load the default .profile
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
