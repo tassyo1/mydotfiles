@@ -5,6 +5,7 @@ set nocompatible      " We're running Vim, not Vi!
 
 set tabstop=2
 set shiftwidth=2
+set softtabstop=2
 set expandtab
 set pastetoggle=<F2>
 
