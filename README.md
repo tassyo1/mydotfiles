@@ -23,6 +23,7 @@
 ## Solarized Colorscheme for Gnome Terminal ##
 
 * [gnome-terminal-colors-solarized] (https://github.com/Anthony25/gnome-terminal-colors-solarized)
+* [Ocean Dark] (https://github.com/Mayccoll/Gogh/blob/master/content/themes.md#ocean-dark)
 * Fonte: Consolas - 12
 
 
