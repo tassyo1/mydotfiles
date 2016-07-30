@@ -24,9 +24,14 @@ set autoindent
 set copyindent
 set preserveindent
 
+" code checks
+let g:syntastic_mode_map = {'mode': 'passive'}
+let g:syntastic_javascript_checkers = ['eslint']
 
 "key bindinds
 map <F2> :NERDTreeToggle<CR>
+map <F3> :SyntasticCheck<CR>
+map <M-F3> :SyntasticReset<CR>
 
 "ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
